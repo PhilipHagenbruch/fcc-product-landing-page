@@ -15,6 +15,12 @@ html {
     z-index: 1;
 }
 
+@media (max-width: 350px) {
+    #header {
+        display: none;
+    }
+}
+
 .nav-link {
     margin: 1em;
 }
